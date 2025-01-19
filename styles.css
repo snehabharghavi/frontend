@@ -1,0 +1,68 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, darkgray,  gray);
+    color: white;
+}
+
+header {
+    background-color: rgb(14, 14, 14);
+    padding: 1rem; 
+}
+div i{
+    color:darkcyan
+}
+nav ul li a:hover{
+    color:darkcyan;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.welcome {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+
+.popular-books {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e3e9eb;
+}
+
+.book-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.book-grid img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.book-grid img:hover {
+    transform: scale(1.1);
+    border-color: #00a2ff;
+}
+  
