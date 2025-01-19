@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('background.jpg'); /* Replace with the actual image file */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo {
+    position: absolute; /* Position it at the top */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Align to the left side */
+    color: white; /* Adjust text color */
+    font-size: 24px;
+    display: flex; /* Align icon and text in a row */
+    align-items: center; /* Vertically center icon and text */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 36px; /* Adjust size as needed */
+    display: inline-block;
+}
+
+.logo i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.login-box h2 {
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-box button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-box button:hover {
+    background: #2980b9;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: #95d4ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
