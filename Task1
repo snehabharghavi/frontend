@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css " rel="stylesheet">
+</head>
+<body style="background-image: url(background.jpg); background-position: center; background-size: cover;">
+  <header>
+      <div class="logo">
+        <h1><i class="fas fa-book-reader"></i>Library</h1>
+      </div>
+      <nav>
+      <ul>
+        <li><a href="task"><i class="fas fa-book"></i> BOOK DETAILS</a></li>
+        <li><a href="admin.html"><i class="fas fa-user-shield"></i> ADMINISTRATION</a></li>
+        <li><a href="members.html"><i class="fas fa-users"></i> LIBRARY MEMBERS</a></li>
+        <li><a href="announcement.html"><i class="fas fa-bullhorn"></i> ANNOUNCEMENTS</a></li>
+        <li><a href="aboutus.html"><i class="fas fa-info-circle"></i> ABOUT US</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="welcome">
+    <h1>WELCOME TO OUR LIBRARY</h1>
+    <p>Our library is a vibrant and inclusive space that offers a wide range of resources and services to support the academic and personal growth of our community. With a vast collection of over 10,000 books, 500 journals, and digital materials, our library provides a comfortable and conducive environment for studying, research, and collaboration. Our knowledgeable and friendly staff are always available to assist with your information needs, and we offer a variety of programs and events to promote literacy, lifelong learning, and community engagement. Including author talks, book clubs, children's storytime, and workshops on topics such as digital literacy and career development. We also provide access to online resources, including e-books, articles, and databases, to support remote learning and research. Whether you're a student, researcher, or simply a book lover, our library is here to support your journey of discovery and learning, being your partner in education and exploration. Our goal is to inspire a love of learning, foster creativity, and provide a welcoming space for all members of our community.</p>
+  </section>
+  <section class="popular-books">
+    <h2>MOST POPULAR BOOKS</h2>
+    <div class="book-grid">
+      <img src="Mahabharata.jpg" alt="Mahabharata">
+      <img src="Communication.jpg" alt="Communication">
+      <img src="Women.jpg" alt="Women">
+      <img src="Harry potter.jpg" alt="Harry potter">
+      <img src="GK.jpg" alt="GK">
+      <img src="Neet.jpg" alt="Neet">
+      <img src="Poetry.jpg" alt="Poetry">
+      <img src="Valueslife.jpg" alt="Valueslife">
+    </div>
+  </section>
+</body>
+</html>
